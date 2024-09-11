@@ -8,19 +8,46 @@
                 {
                     "especie": "macaco",
                     "tamanho": 1,
-                    "bioma":  ["savana","floresta"],
+                    "bioma": [
+                        {
+                            "type": "savana",
+                            "toleraOutraEspecie": true
+                        },
+                        {
+                            "type": "floresta",
+                            "toleraOutraEspecie": true
+                        }
+                    ],
                     "habito_alimentar": "onivoro"
                 },
                 {
                     "especie": "macaco",
                     "tamanho": 1,
-                    "bioma":  ["s","floresta"],
+                    "bioma": [
+                        {
+                            "type": "savana",
+                            "toleraOutraEspecie": true
+                        },
+                        {
+                            "type": "floresta",
+                            "toleraOutraEspecie": true
+                        }
+                    ],
                     "habito_alimentar": "onivoro"
                 },
                 {
                     "especie": "macaco",
                     "tamanho": 1,
-                    "bioma": ["savana","floresta"],
+                    "bioma": [
+                        {
+                            "type": "savana",
+                            "toleraOutraEspecie": true
+                        },
+                        {
+                            "type": "floresta",
+                            "toleraOutraEspecie": true
+                        }
+                    ],
                     "habito_alimentar": "onivoro"
                 }
             ]
@@ -39,7 +66,16 @@
                 {
                     "especie": "gazela",
                     "tamanho": 2,
-                    "bioma": "savana,floresta",
+                    "bioma": [
+                        {
+                            "type": "savana",
+                            "toleraOutraEspecie": true
+                        },
+                        {
+                            "type": "floresta",
+                            "toleraOutraEspecie": true
+                        }
+                    ],
                     "habito_alimentar": "herbivoro"
                 }
             ]
@@ -59,9 +95,13 @@
                     "numero": 1,
                     "especie": "leão",
                     "tamanho": 3,
-                    "bioma": "savana",
+                    "bioma": [
+                        {
+                            "type": "savana",
+                            "toleraOutraEspecie": false
+                        }
+                    ],
                     "habito_alimentar": "carnivoro"
-                    
                 }
             ]
         }
@@ -71,42 +111,84 @@
             "numero": 1,
             "especie": "leão",
             "tamanho": 3,
-            "bioma": ["savana"],
+            "bioma": [
+                {
+                    "type": "savana",
+                    "toleraOutraEspecie": false
+                }
+            ],
             "habito_alimentar": "carnivoro"
         },
         {
             "numero": 2,
             "especie": "gazela",
             "tamanho": 2,
-            "bioma":  ["savana","floresta"],
+            "bioma": [
+                {
+                    "type": "savana",
+                    "toleraOutraEspecie": true
+                },
+                {
+                    "type": "floresta",
+                    "toleraOutraEspecie": true
+                }
+            ],
             "habito_alimentar": "herbivoro"
         },
         {
             "numero": 3,
             "especie": "macaco",
             "tamanho": 1,
-            "bioma": ["savana","floresta"],
+            "bioma": [
+                {
+                    "type": "savana",
+                    "toleraOutraEspecie": true
+                },
+                {
+                    "type": "floresta",
+                    "toleraOutraEspecie": true
+                }
+            ],
             "habito_alimentar": "onivoro"
         },
         {
             "numero": 4,
             "especie": "leopardo",
             "tamanho": 2,
-            "bioma": ["savana"],
+            "bioma": [
+                {
+                    "type": "savana",
+                    "toleraOutraEspecie": false
+                }
+            ],
             "habito_alimentar": "carnivoro"
         },
         {
             "numero": 5,
             "especie": "crocodilo",
             "tamanho": 3,
-            "bioma": ["rio"],
+            "bioma": [
+                {
+                    "type": "rio",
+                    "toleraOutraEspecie": false
+                }
+            ],
             "habito_alimentar": "carnivoro"
         },
         {
             "numero": 6,
             "especie": "hipopotamo",
             "tamanho": 4,
-            "bioma": ["savana","floresta"],
+            "bioma": [
+                {
+                    "type": "savana",
+                    "toleraOutraEspecie": false
+                },
+                {
+                    "type": "rio",
+                    "toleraOutraEspecie": "savana e rio"
+                }
+            ],
             "habito_alimentar": "herbivoro"
         }
     ]

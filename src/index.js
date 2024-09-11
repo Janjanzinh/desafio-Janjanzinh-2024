@@ -7,8 +7,9 @@ async function main() {
 
  const app = new  RecintosZoo();
 
-  const result = await app.analisaRecintos("MACACO",10)
+  const result = await app.analisaRecintos("LEOPARDO",1)
   
+  console.log(result)
  
 }
 
