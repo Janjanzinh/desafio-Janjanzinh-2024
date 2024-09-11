@@ -1,0 +1,113 @@
+{
+    "recintos": [
+        {
+            "numero": 1,
+            "bioma": "savana",
+            "tamanho_total": 10,
+            "animais_existentes": [
+                {
+                    "especie": "macaco",
+                    "tamanho": 1,
+                    "bioma":  ["savana","floresta"],
+                    "habito_alimentar": "onivoro"
+                },
+                {
+                    "especie": "macaco",
+                    "tamanho": 1,
+                    "bioma":  ["s","floresta"],
+                    "habito_alimentar": "onivoro"
+                },
+                {
+                    "especie": "macaco",
+                    "tamanho": 1,
+                    "bioma": ["savana","floresta"],
+                    "habito_alimentar": "onivoro"
+                }
+            ]
+        },
+        {
+            "numero": 2,
+            "bioma": "floresta",
+            "tamanho_total": 5,
+            "animais_existentes": []
+        },
+        {
+            "numero": 3,
+            "bioma": "savana,rio",
+            "tamanho_total": 7,
+            "animais_existentes": [
+                {
+                    "especie": "gazela",
+                    "tamanho": 2,
+                    "bioma": "savana,floresta",
+                    "habito_alimentar": "herbivoro"
+                }
+            ]
+        },
+        {
+            "numero": 4,
+            "bioma": "rio",
+            "tamanho_total": 8,
+            "animais_existentes": []
+        },
+        {
+            "numero": 5,
+            "bioma": "savana",
+            "tamanho_total": 9,
+            "animais_existentes": [
+                {
+                    "numero": 1,
+                    "especie": "leão",
+                    "tamanho": 3,
+                    "bioma": "savana",
+                    "habito_alimentar": "carnivoro"
+                    
+                }
+            ]
+        }
+    ],
+    "animais": [
+        {
+            "numero": 1,
+            "especie": "leão",
+            "tamanho": 3,
+            "bioma": ["savana"],
+            "habito_alimentar": "carnivoro"
+        },
+        {
+            "numero": 2,
+            "especie": "gazela",
+            "tamanho": 2,
+            "bioma":  ["savana","floresta"],
+            "habito_alimentar": "herbivoro"
+        },
+        {
+            "numero": 3,
+            "especie": "macaco",
+            "tamanho": 1,
+            "bioma": ["savana","floresta"],
+            "habito_alimentar": "onivoro"
+        },
+        {
+            "numero": 4,
+            "especie": "leopardo",
+            "tamanho": 2,
+            "bioma": ["savana"],
+            "habito_alimentar": "carnivoro"
+        },
+        {
+            "numero": 5,
+            "especie": "crocodilo",
+            "tamanho": 3,
+            "bioma": ["rio"],
+            "habito_alimentar": "carnivoro"
+        },
+        {
+            "numero": 6,
+            "especie": "hipopotamo",
+            "tamanho": 4,
+            "bioma": ["savana","floresta"],
+            "habito_alimentar": "herbivoro"
+        }
+    ]
+}
